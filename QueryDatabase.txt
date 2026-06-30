@@ -1,0 +1,6 @@
+# 1. Seleziona tutti gli utenti e calcolane l'età (25)
+
+SELECT `id`,`username`,`email`,`password`,
+timestampdiff(YEAR, `birthdate`, CURDATE()) AS `age`
+FROM `users`;
+
