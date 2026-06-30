@@ -42,5 +42,5 @@
 
 - id_post       FK NN
 - id_utente     FK NN    
-- numeroLike    INT
+- numero_like    INT
   
